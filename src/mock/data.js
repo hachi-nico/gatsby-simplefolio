@@ -28,30 +28,36 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project1-wpjpa.png',
+    title: 'Web Penyedia Judul PA',
+    info: 'Status: done',
+    info2: '[Team Project] WebApp for college assignments',
+    url: 'http://k3site.rf.gd/',
+    repo: 'https://github.com/hachi-nico/web-penyedia-judul-pa-legacy', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project2-lesinaja.png',
+    title: 'LesinAja',
+    info: 'Status: on progress',
+    info2: '[Team Project] WebApp for Bimbel LesinAja',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project3-wheaterapp.png',
+    title: 'Monitor Cuaca',
+    info: 'Status: done',
+    info2: '[Personal Project] WebApp to display current wheater',
+    url: 'https://fancy-monitor-cuaca.web.app/',
+  },
+  {
+    id: nanoid(),
+    img: 'project4-chat-n-chill.png',
+    title: 'Chat n Chill',
+    info: 'Status: on progress',
+    info2: '[Personal Project] WebApp with chat engine',
+    url: 'https://chat-n-chill.web.app/',
+    repo: 'https://github.com/hachi-nico/funchat', // if no repo, the button will not show up
   },
 ];
 
